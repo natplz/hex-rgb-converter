@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: $m-size;
+}
+
+
+.outer-container {
+  width:100%;
+  text-align:center;
+}
+
+.inner-container {
+  margin: 0 auto;
+  display:flex;
+  justify-content:space-evenly;
+  max-width:50rem;
+}
+
+
+
