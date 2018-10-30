@@ -2,10 +2,7 @@ import React from 'react';
 
 const Header = (props) => (
   <div className="header">
-    <h3>{props.title}</h3>
+    <h3>hex &nbsp; {(props.currentField === props.leftField) ? "-->" : "<--"} &nbsp; rgb</h3>
   </div>
 );
-Header.defaultProps = {
-  title: "<Title Goes Here>"
-}
 export default Header;

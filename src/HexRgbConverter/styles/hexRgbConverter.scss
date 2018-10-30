@@ -1,10 +1,20 @@
 html {
   font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
 }
 body {
   font-size: $m-size;
 }
 
+.header {
+  text-align:center;
+  padding:$xl-size;
+}
+
+.page {
+  height:100vh;
+  margin-top:-20px;
+}
 
 .outer-container {
   width:100%;
@@ -18,5 +28,14 @@ body {
   max-width:50rem;
 }
 
+.inputField {
+  border:none;
+  background: transparent;
+  width:150px;
+}
+
+.inputField:focus {
+  outline:none;
+}
 
 
